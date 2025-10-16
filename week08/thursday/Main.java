@@ -2,7 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        // primitive type
         int primitiveNum = 5;
+
+        // wrapper class
         Integer refNumber = 5;
 
 
@@ -21,6 +24,8 @@ public class Main {
         }
 
         /*
+        Same as:
+        10 reference variables now pointing to 10 unique objects
         eastBuilding[0] = new Room("East");
         eastBuilding[1] = new Room("East");
         eastBuilding[2] = new Room("East");
@@ -34,6 +39,7 @@ public class Main {
         Room r1 = new Room("West", 380);
         Room r2 = new Room("West", 303);
 
+        // can define an array of ref vars and initialize with objects OR other ref vars which point
         Room[] westBuilding = {r1, r2, null, null, null, new Room("West"), eastBuilding[0]};
 
         changeFloor(r2, 1);
