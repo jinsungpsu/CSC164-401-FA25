@@ -1,0 +1,7 @@
+giftcard, congrads, 25, 25
+giftcard, happy birthday, 25, 25
+giftcard, dallas sucks, 25, 25
+giftcard , i'm so sorry, 25, 25
+ giftcard, happy festivus, 25, 25
+pizza, 800, 15
+burger, 700, 11
